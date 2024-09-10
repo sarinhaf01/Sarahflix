@@ -1,0 +1,42 @@
+body {
+    color: purple;
+    background: gray;
+    margin: 3px;
+    }
+    header {
+    border-bottom: solid 2px rgb(197, 194, 24) ;
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(197, 194, 24);
+    }
+    section {
+    background-color: gray;
+    padding-top: 5px ;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    }    
+    .chamada-texto {
+    margin-right: 30px;
+    font-size: 32px;
+    }
+    img{
+        height: 300px;
+    }
+    
+    .categoria-vídeos img{
+    height: 300px;
+    opacity: 0.5;
+    }
+    .categoria-vídeos img:hover {
+      opacity: 1.0;
+    }
+    .categoria-vídeos{
+       display:flex;
+       overflow-x: auto;
+       gap: 10px;
+    }
+    .categoria {
+       padding-left: 20px;
+       padding-right: 20px;
+    }
